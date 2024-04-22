@@ -1,0 +1,45 @@
+,Mean,SD,Min,Max,Description
+song_length,288.0959,189.1756,17,1188,length of each song in seconds
+#_of_listens,3986856,4514924,4694,44277123,number of listens each song has on Spotify
+song_descriptor,,,,,a single adjective to describe the genre/feeling of the song
+   Psychedelic,0.16,,,,song is psychedelic/trippy
+   Aggressive,0.14,,,,"song is fast-paced, sounds angry"
+   Upbeat,0.25,,,,"song is up-tempo, usually happy-sounding"
+   Groovy,0.13,,,,song is funky
+   Chill,0.11,,,,"song is slow-to-mid-tempo, very pleasant and nice vibe"
+   Heavy,0.08,,,,"song is slow-to-mid-tempo, with brutal instrumentals"
+   Other,0.13,,,,song does not fit easily into any of the above categories
+song_topic,,,,,what each song's lyrics are about
+   Love/Relationship,0.08,,,,lyrics are about love in general or a relationship in particular
+   Narrative,0.36,,,,lyrics have a story with specific events
+   Person/Character,0.21,,,,lyrics are about a specific person or character
+   Societal Issue,0.15,,,,lyrics are about a greater societal issue
+   Other,0.21,,,,lyrics do not fit into any above categories/no lyrics
+personal_enjoyment,6.150685,1.710769,2,10,how much I enjoyed each song on a scale of 1-10
+album,,,,,the name of the album each song is on
+   Oddments,0.05,,,,"song is on the album ""Oddments"""
+   Gumboot Soup,0.05,,,,"song is on the album ""Gumboot Soup"""
+   Omnium Gatherum,0.07,,,,"song is on the album ""Omnium Gatherum"""
+   Nonagon Infinity,0.04,,,,"song is on the album ""Nonagon Infinty"""
+   Sketches of Brunswick East,0.06,,,,"song is on the album ""Sketches of Brunswick East"""
+   Fishing for Fishies,0.04,,,,"song is on the album ""Fishing for Fishies"""
+   K.G.,0.05,,,,"song is on the album ""K.G."""
+   L.W.,0.04,,,,"song is on the album ""L.W."""
+   I'm In Your Mind Fuzz,0.05,,,,"song is on the album ""I'm In Your Mind Fuzz"""
+   Eyes Like the Sky,0.05,,,,"song is on the album ""Eyes Like the Sky"""
+   Twelve Bar Bruise,0.05,,,,"song is on the album ""Twelve Bar Bruise"""
+   Float Along - Fill Your Lungs,0.04,,,,"song is on the album ""Float Along - Fill Your Lungs"""
+   Quarters!,0.02,,,,"song is on the album ""Quarters!"""
+   Paper Mache Dream Balloon,0.05,,,,"song is on the album ""Paper Mache Dream Balloon"""
+   Flying Microtinal Banana,0.04,,,,"song is on the album ""Flying Microtonal Banana"""
+   Murder of the Universe,0.01,,,,"song is on the album ""Murder of the Universe"""
+   Polygondwanaland,0.05,,,,"song is on the album ""Polygondwanaland"""
+   Infest the Rats' Nest,0.04,,,,"song is on the album ""Infest the Rats' Nest"""
+   Butterfly 3000,0.05,,,,"song is on the album ""Butterfly 3000"""
+   Made in Timeland,0.01,,,,"song is on the album ""Made in Timeland"""
+"   Ice, Death, Planets, Lungs, Mushrooms and Lava",0.03,,,,"song is on the album ""Ice, Death, Planets, Mushrooms and Lava"""
+   Laminated Denim,0.01,,,,"song is on the album ""Laminated Denim"""
+   Changes,0.03,,,,"song is on the album ""Changes"""
+   PetroDragonic Apocalypse,0.04,,,,"song is on the album ""PetroDragonic Apocalypse"""
+   The Silver Cord,0.03,,,,"song is on the album ""The Silver Cord"""
+n=219,,,,,
