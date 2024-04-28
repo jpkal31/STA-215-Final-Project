@@ -69,11 +69,22 @@ linear_relationship <- lm(personal_enjoyment ~ song_length, data = dataset)
 summary(linear_relationship)
 abline(linear_relationship, col = "red")
 
+linear_plot <- plot(dataset_withoutlistensoutlier$number_of_listens, dataset_withoutlistensoutlier$personal_enjoyment)
+print(linear_plot)
+meany <- mean(dataset_withoutlistensoutlier$number_of_listens)
+meanx <- mean(dataset_withoutlistensoutlier$personal_enjoyment)
+abline(h = meanx, col = "black")
+abline(v = meany, col = "black")
+linear_relationship <- lm(personal_enjoyment ~ song_length, data = dataset_withoutlistensoutlier)
+summary(linear_relationship)
+abline(linear_relationship, col = "red")
+
 ##################################################################################
 ####################  Figure 3: residual plot                ####################   
 ##################################################################################
 # Plot the residuals
 plot(dataset$song_length, residuals(linear_relationship))
+plot(dataset_withoutlistensoutlier$number_of_listens, residuals(linear_relationship))
 
 # Add a horizontal line at zero to indicate the baseline
 abline(h = 0, col = "red")
