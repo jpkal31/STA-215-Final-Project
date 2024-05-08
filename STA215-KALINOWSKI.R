@@ -79,7 +79,7 @@ meany <- mean(dataset_withoutlistensoutlier$number_of_listens)
 meanx <- mean(dataset_withoutlistensoutlier$personal_enjoyment)
 abline(h = meanx, col = "black")
 abline(v = meany, col = "black")
-linear_relationship <- lm(personal_enjoyment ~ song_length, data = dataset_withoutlistensoutlier)
+linear_relationship <- lm(personal_enjoyment ~ number_of_listens, data = dataset_withoutlistensoutlier)
 summary(linear_relationship)
 abline(linear_relationship, col = "red")
 
