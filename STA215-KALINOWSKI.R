@@ -49,6 +49,10 @@ aov(personal_enjoyment ~ album, data = dataset)
 summary(personal_enjoyment ~ album, data = dataset)
 boxplot(personal_enjoyment ~ album, data = dataset)
 
+lm(personal_enjoyment ~ number_of_listens, data = dataset)
+aov(personal_enjoyment ~ number_of_listens, data = dataset)
+summary(personal_enjoyment ~ number_of_listens, data = dataset)
+
 # filter out songs longer than 10 minutes (600 seconds)
 dataset_withououtlier <- dataset %>%
   filter(song_length < 600)
